@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.calculator {
+    max-width: 500px;
+    margin: 200px auto;
+}
+
+.button-clr {
+    font-family: "Orbitron";
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+    font-family: "Orbitron";
+}
