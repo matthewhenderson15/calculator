@@ -4,35 +4,48 @@ body {
 
 .calculator {
     max-width: 450px;
+    min-height: 400px;
     margin: 200px auto;
     background-color: gray;
+    border-radius: 0.5em;
 }
 
-.display {
+#display, #temp-display {
     font-family: "Orbitron";
     justify-content: right;
     background-color: white;
     padding: 10px;
+    height: 20px;
     margin: 10px 10px 10px 10px;
+    border-radius: 0.75em;
 }
 
 .delete-buttons {
     max-width: 100px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 115px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     align-self: center;
+    border-radius: 0.5em;
 }
 
-.number-buttons {
+.main-buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     margin: 20px auto;
 }
 
-.button {
+.number-button, .operator-button, #equal-button, #decimal-button,
+#clear-button, #backspace-button {
     font-family: "Orbitron";
     font-size: 16px;
     padding: 10px;
+    border-radius: 0.5em;
+    margin-right: 5px;
+    margin-left: 5px;
 }
