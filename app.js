@@ -41,10 +41,10 @@ equalButton.addEventListener("click", equal)
 function clear() {
     operand1 = '';
     operand2 = '';
-    operandList = '';
+    operandList = [];
     displayValue.textContent = '';
     tempDisplay.textContent = '';
-    mainOperator = '';
+    mainOperator = null;
 }
 clearButton.addEventListener("click", clear)
 
